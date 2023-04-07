@@ -24,8 +24,8 @@ routers.get("/getusers", auth, getusers);
 routers.get("/logout", auth, logoutuser);
 
 // cars route
-routers.post("/addcar", auth, addcar);
-routers.get("/getcars", auth, getcars);
+routers.post("/addcar", addcar);
+routers.get("/getcars", getcars);
 routers.post("/deleteone/:id", deleteone);
 routers.post("/deleteall/:id", deleteall);
 routers.get("/sortcompany", sortcompay);
